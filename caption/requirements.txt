@@ -1,0 +1,14 @@
+# Auto Captioner - all dependencies are free and open source (no API keys, no paid services)
+# Python 3.9 or newer. FFmpeg is a separate system program (see README.md).
+
+# GUI (same toolkit as Video Clipper)
+customtkinter>=5.2.2,<6
+Pillow>=10.0.0
+
+# Local, offline speech-to-text (Whisper via CTranslate2). Installs ctranslate2, PyAV,
+# onnxruntime and huggingface_hub automatically.
+faster-whisper>=1.0.3,<2
+
+# --- OPTIONAL: NVIDIA GPU acceleration (CUDA 12). Skip this if you only use the CPU. ---
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12==9.*

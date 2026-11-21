@@ -1,0 +1,5 @@
+﻿filename,final_score,text_score,audio_score,visual_score,wpm,opening_hook,passed_threshold,hook_mode,error
+GTA_001.mov,0,0.0,0.0,0.0,0.0,,NO,heuristic,open() got an unexpected keyword argument 'metadata_errors'
+GTA_002.mov,0,0.0,0.0,0.0,0.0,,NO,heuristic,open() got an unexpected keyword argument 'metadata_errors'
+GTA_003.mov,0,0.0,0.0,0.0,0.0,,NO,heuristic,open() got an unexpected keyword argument 'metadata_errors'
+GTA_004.mov,0,0.0,0.0,0.0,0.0,,NO,heuristic,open() got an unexpected keyword argument 'metadata_errors'

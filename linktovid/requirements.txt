@@ -1,0 +1,18 @@
+# YT 4K Downloader - Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# yt-dlp[default] includes the yt-dlp-ejs component that current YouTube support needs
+# (2025.11.12 was the first release with external JavaScript runtime support).
+# Keep yt-dlp up to date:  pip install -U -r requirements.txt
+yt-dlp[default]>=2025.11.12
+
+# Modern themed Tk widgets (same GUI framework as Video Clipper and Auto Captioner)
+customtkinter>=5.2.2
+
+# Required by customtkinter
+Pillow>=10.0.0
+
+# Not installed by pip, needed on your system:
+#   FFmpeg + ffprobe on PATH   (see README.md)
+#   Deno (JavaScript runtime)  (recommended for YouTube, see README.md)
+#   tkinter                    (bundled with python.org installers; on Linux: sudo apt install python3-tk)
